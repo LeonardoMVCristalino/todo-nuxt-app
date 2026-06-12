@@ -8,9 +8,7 @@ const isDev = import.meta.env.DEV
 <template>
   <div v-if="isDev">
     <UCard :title="title">
-      <slot></slot>
-
+      <slot />
     </UCard>
-
   </div>
 </template>
